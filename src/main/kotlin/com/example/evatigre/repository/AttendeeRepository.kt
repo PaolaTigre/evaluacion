@@ -7,5 +7,5 @@ import org.springframework.stereotype.Repository
 
 @Repository
 interface AttendeeRepository:JpaRepository<Attendee, Long> {
-    fun findById(id: Long?): Attendee?
+ fun findById(id:Long?):Attendee?
 }
